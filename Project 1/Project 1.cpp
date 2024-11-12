@@ -60,9 +60,21 @@ int main()
 
    /* cout << "\nThe Number Of the Linked List = " << MydblLinkedList.Size();*/
 
-    MydblLinkedList.Reverse();
-
+   /* MydblLinkedList.Reverse();
     cout << "\nLinked List Content:\n";
+    MydblLinkedList.PrintList();*/
+
+  /*  clsDblLinkedList <int> ::Node* N1;
+    N1 = MydblLinkedList.GetNode(0);
+    cout << "\nNode Value is: " << N1->value;
+
+    cout << "\nItem (2) Value is: " << MydblLinkedList.GetItem(2);
+
+    MydblLinkedList.UpdateItem(2, 900);*/
+
+    MydblLinkedList.InsertAfter(4, 40);
+
+    cout << "\nLinked List Content After Update:\n";
     MydblLinkedList.PrintList();
 
 

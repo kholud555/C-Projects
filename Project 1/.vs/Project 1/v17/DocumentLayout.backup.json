@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\Documents\\Programming advice\\problems solving level 5\\Project 1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{05BE1EB3-952B-4207-B550-14D51EDD8C4C}|Project 1.vcxproj|D:\\Documents\\Programming advice\\problems solving level 5\\Project 1\\clsDbLinkedList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{05BE1EB3-952B-4207-B550-14D51EDD8C4C}|Project 1.vcxproj|solutionrelative:clsDbLinkedList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{05BE1EB3-952B-4207-B550-14D51EDD8C4C}|Project 1.vcxproj|D:\\Documents\\Programming advice\\problems solving level 5\\Project 1\\Project 1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{05BE1EB3-952B-4207-B550-14D51EDD8C4C}|Project 1.vcxproj|solutionrelative:Project 1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05BE1EB3-952B-4207-B550-14D51EDD8C4C}|Project 1.vcxproj|D:\\Documents\\Programming advice\\problems solving level 5\\Project 1\\clsDbLinkedList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{05BE1EB3-952B-4207-B550-14D51EDD8C4C}|Project 1.vcxproj|solutionrelative:clsDbLinkedList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,17 +18,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "clsDbLinkedList.h",
               "DocumentMoniker": "D:\\Documents\\Programming advice\\problems solving level 5\\Project 1\\clsDbLinkedList.h",
               "RelativeDocumentMoniker": "clsDbLinkedList.h",
-              "ToolTip": "D:\\Documents\\Programming advice\\problems solving level 5\\Project 1\\clsDbLinkedList.h*",
-              "RelativeToolTip": "clsDbLinkedList.h*",
-              "ViewState": "AgIAAKwAAAAAAAAAAAAAALoAAAAAAAAAAAAAAA==",
+              "ToolTip": "D:\\Documents\\Programming advice\\problems solving level 5\\Project 1\\clsDbLinkedList.h",
+              "RelativeToolTip": "clsDbLinkedList.h",
+              "ViewState": "AgIAALoAAAAAAAAAAAAAAAMBAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-07T18:27:32.814Z",
               "IsPinned": true,
@@ -36,16 +36,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Project 1.cpp",
               "DocumentMoniker": "D:\\Documents\\Programming advice\\problems solving level 5\\Project 1\\Project 1.cpp",
               "RelativeDocumentMoniker": "Project 1.cpp",
-              "ToolTip": "D:\\Documents\\Programming advice\\problems solving level 5\\Project 1\\Project 1.cpp",
-              "RelativeToolTip": "Project 1.cpp",
-              "ViewState": "AgIAADcAAAAAAAAAAAAwwEUAAAAAAAAAAAAAAA==",
+              "ToolTip": "D:\\Documents\\Programming advice\\problems solving level 5\\Project 1\\Project 1.cpp*",
+              "RelativeToolTip": "Project 1.cpp*",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAAEoAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-07T18:21:43.425Z",
-              "IsPinned": true,
               "EditorCaption": ""
             }
           ]

@@ -117,7 +117,7 @@ public:
 
     }
 
-    void DeleteFirstNode()
+   void DeleteFirstNode()
     {
         if (head == NULL) {
             return;
@@ -186,21 +186,86 @@ public:
 
    void Reverse()
    {
-
-       Node* LastNode = head;
-       while(LastNode->next != NULL)
+       Node* Current = head;
+       Node* temp = nullptr;
+       while (Current != nullptr)
        {
-           LastNode = LastNode->next;
+           temp = Current->prev;
+           Current->prev = Current->next;
+           Current->next = temp;
+           Current = Current->prev;
        }
 
-       LastNode->next = LastNode->prev;
-       LastNode->prev = NULL;
+       if (temp != nullptr)
+           head = temp->prev;
+   }
 
-       if (head->prev == NULL)
-       {
-           head->prev = head->next;
-           head->next = NULL;
+   Node* GetNode(int Index)
+   {
+
+       int Counter = 0;
+
+       if (Index > _Size - 1 || Index < 0)
+           return 0;
+
+       Node* Current = head;
+       while (Current != NULL && (Current->next != NULL)) {
+
+           if (Counter == Index)
+               break;
+
+           Current = Current->next;
+           Counter++;
+
        }
+
+       return Current;
+   }
+
+   T GetItem(int Index)
+   {
+       Node* ItemNode = GetNode(Index);
+
+       if (ItemNode == NULL)
+       {
+           return NULL;
+       }
+       else {
+           return ItemNode->value;
+       }         
+   }
+
+   bool UpdateItem(int Index, T NewValue)
+   {
+       Node* Item = GetNode(Index);
+       if (Item != NULL)
+       {
+           Item->value = NewValue;
+           return true;
+       }
+       else
+       {
+           return false;
+       }
+       
+   }
+
+   bool InsertAfter(int Index, T NewValue)
+   {
+       Node* ItemNode = GetNode(Index);
+
+       if (ItemNode != NULL)
+       {
+           InsertAfter(ItemNode, NewValue);
+           return true;
+       }
+       else
+       {
+           return false;
+       }
+           
+
+       
    }
 
     void PrintList()
