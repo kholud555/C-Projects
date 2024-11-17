@@ -7,9 +7,6 @@
       "RelativeMoniker": "D:0:0:{E96C7702-53F5-4500-827B-BCAFB3241AFD}|Project 4.vcxproj|solutionrelative:clsDynamicArray.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\crt\\src\\vcruntime\\delete_scalar.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E96C7702-53F5-4500-827B-BCAFB3241AFD}|Project 4.vcxproj|D:\\Documents\\Programming advice\\problems solving level 5\\Project 4\\Project 4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E96C7702-53F5-4500-827B-BCAFB3241AFD}|Project 4.vcxproj|solutionrelative:Project 4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -21,19 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "delete_scalar.cpp",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\crt\\src\\vcruntime\\delete_scalar.cpp",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\crt\\src\\vcruntime\\delete_scalar.cpp",
-              "ViewState": "AgIAABYAAAAAAAAAAAAvwCEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-15T19:47:55.596Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -42,22 +28,24 @@
               "RelativeDocumentMoniker": "clsDynamicArray.h",
               "ToolTip": "D:\\Documents\\Programming advice\\problems solving level 5\\Project 4\\clsDynamicArray.h",
               "RelativeToolTip": "clsDynamicArray.h",
-              "ViewState": "AgIAAIkAAAAAAAAAAAAAAKAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABcAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-13T20:12:41.579Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Project 4.cpp",
               "DocumentMoniker": "D:\\Documents\\Programming advice\\problems solving level 5\\Project 4\\Project 4.cpp",
               "RelativeDocumentMoniker": "Project 4.cpp",
               "ToolTip": "D:\\Documents\\Programming advice\\problems solving level 5\\Project 4\\Project 4.cpp",
               "RelativeToolTip": "Project 4.cpp",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAEYAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-13T20:04:53.159Z",
+              "IsPinned": true,
               "EditorCaption": ""
             }
           ]

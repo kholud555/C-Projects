@@ -158,31 +158,56 @@ public:
     	return true;
 	}
 
-	void InsertAt(int Index, T Value)
+	bool InsertAt(int Index, T Value)
 	{
-	/*	if (Index >= 0 || Index > _Length)
-			return;*/
+		if (Index < 0 || Index > _Length)
+			return false;
 
 		_Length++;
-
 		_TempArr = new T[_Length];
 
-		
+		_TempArr[Index] = Value;
+
 		for (int i = 0; i < Index; i++)
 		{
 			_TempArr[i] = arr[i];
 		}
-
-		_TempArr[Index] = Value;
-
-		for (int i = Index + 1; i < _Length-1; i++)
+		for (int i = Index; i < _Length - 1; i++)
 		{
-			_TempArr[i +1] = arr[i];
+			_TempArr[i + 1] = arr[i];
 		}
-		delete[] arr;
-		_TempArr = arr;
 
+		delete[] arr;
+		arr = _TempArr;
+		return true;
 	}
+
+	void InsertAtBignning(T Value)
+	{
+		InsertAt(0, Value);
+	}
+
+	void InsertAtEnd(T Value)
+	{
+		InsertAt(_Length, Value);
+	}
+
+	bool InsertAfter(int Index,T Value)
+	{
+		if(Index >= _Length)
+			return InsertAt(_Length - 1, Value);
+		else
+		      return InsertAt(Index + 1, Value);
+	}
+
+	bool InsertBefore(int Index, T Value)
+	{
+		if (Index < 1)
+			return InsertAt(0, Value);
+		else
+		    return InsertAt(Index - 1, Value);
+	}
+
 
 	void PrintList()
 	{
