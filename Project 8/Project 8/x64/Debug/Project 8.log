@@ -1,0 +1,26 @@
+﻿  Project 8.cpp
+D:\Documents\Programming advice\problems solving level 5\Project 8\clsString.h(37,25): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Project%208.cpp')
+  
+D:\Documents\Programming advice\problems solving level 5\Project 8\clsString.h(42,29): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Project%208.cpp')
+  
+D:\Documents\Programming advice\problems solving level 5\Project 8\clsString.h(53,30): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Project%208.cpp')
+  
+D:\Documents\Programming advice\problems solving level 5\Project 8\clsString.h(192,29): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Project%208.cpp')
+  
+D:\Documents\Programming advice\problems solving level 5\Project 8\clsString.h(321,30): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Project%208.cpp')
+  
+D:\Documents\Programming advice\problems solving level 5\Project 8\clsString.h(368,22): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Project%208.cpp')
+  
+D:\Documents\Programming advice\problems solving level 5\Project 8\clsString.h(537,27): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Project%208.cpp')
+  
+D:\Documents\Programming advice\problems solving level 5\Project 8\clsQueueLine.h(108,30): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Project%208.cpp')
+  
+  Project 8.vcxproj -> D:\Documents\Programming advice\problems solving level 5\Project 8\x64\Debug\Project 8.exe
